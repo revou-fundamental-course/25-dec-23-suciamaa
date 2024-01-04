@@ -4,6 +4,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: url('../img/bg.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: auto;
+    }
+}
+
 :root{
     --main-color: #2E4374;
     --second-color: #FFF5E0;
@@ -27,12 +38,15 @@ button{
     font-size: 28px;
     color: var(--second-color);
     border-radius: 5px;
+    width: 75%;
+    display: block;
+    margin: 20px auto;
 }
 
 .SegitigaBtn:hover{
     background: var(--second-color);
     color: var(--main-color);
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     transition: 0.2s;
 }
 
@@ -40,6 +54,7 @@ form{
     border: 2px solid var(--main-color);
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: rgb(252, 251, 243);
 }
 
 .buttonSegitiga{
@@ -53,8 +68,10 @@ form{
     margin: 20px 20px;
     background-color: var(--second-color);
     color: var(--main-color);
-    font-size: 15px;
+    font-size: 18px;
     border-color: var(--second-color);
+    border-radius: 5px;
+    padding: 15px 40px;
 }
 
 .buttonSegitiga button:hover{
@@ -180,12 +197,15 @@ table.KelilingSegitiga input {
     font-size: 28px;
     color: var(--second-color);
     border-radius: 5px;
+    width: 75%;
+    display: block;
+    margin: 20px auto;
 }
 
 .JajargenjangBtn:hover{
     background: var(--second-color);
     color: var(--main-color);
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     transition: 0.2s;
 }
 
@@ -200,8 +220,10 @@ table.KelilingSegitiga input {
     margin: 20px 20px;
     background-color: var(--second-color);
     color: var(--main-color);
-    font-size: 15px;
+    font-size: 18px;
     border-color: var(--second-color);
+    border-radius: 5px;
+    padding: 15px 40px;
 }
 
 .buttonJajargenjang button:hover{
